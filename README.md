@@ -14,4 +14,4 @@ This POC contains one module `crypto_splitting.py`, with two functions:
 
 # Author
 
-2020 [Mathieu Chollet](https://mchollet.eu/)
+(c) 2020 [Mathieu Chollet](https://mchollet.eu/)

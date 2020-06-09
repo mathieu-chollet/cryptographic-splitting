@@ -21,10 +21,10 @@ def split_file(path_in: str, path_out_1: str, path_out_2: str) -> None:
     # c2 gets even-numbered bits 2, 4, 6, 8
     # Adding them to output_1 and output_2, respectively
     for c in input_bytes:
-        c1 = c & 0xAA # 0xAA = 10101010
-        c2 = c & 0x55 # Ox55 = 01010101
-        output_1 = output_1_str + chr(c1)
-        output_2 = output_2_str + chr(c2)
+        c1 = c & 0xAA  # 0xAA = 10101010
+        c2 = c & 0x55  # Ox55 = 01010101
+        output_1_str = output_1_str + chr(c1)
+        output_2_str = output_2_str + chr(c2)
 
     # Writing the first output file to disk
     f_out1 = open(path_out_1, "wb")
