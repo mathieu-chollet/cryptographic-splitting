@@ -1,4 +1,4 @@
-# cryptographic-splitting-poc
+# cryptographic-splitting
 
 A cryptographic splitting (academic) proof of concept
 
